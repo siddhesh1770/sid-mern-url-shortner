@@ -5,6 +5,9 @@
   "repository": "https://github.com/siddhesh1770/sid-mern-url-shortner.git",
   "author": "Siddhesh Patil <hello@siddheshpatil.in>",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",

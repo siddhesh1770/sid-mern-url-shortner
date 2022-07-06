@@ -19,7 +19,8 @@ app.use(
 app.use(express.json());
 app.use("/", require("./routes/api"));
 app.use(errorHandler);
-
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
-});
+}).on("error", (err) => {
+  console.log(err);
+})
